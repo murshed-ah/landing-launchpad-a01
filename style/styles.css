@@ -8,7 +8,9 @@
     "wdth" 100;
 }
 
-
+body{
+    background-color: #4d47ff11;
+}
 /* Banner Section */
 .hero-bg{
     background-image: url('../Assets/Hero-bg.png');
@@ -250,9 +252,76 @@ nav{
 
 /* Let’s Get In Touch Section */
 
+.contact-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1140px;
+    height: 632px;
+    margin-top: 137px;
+    box-shadow: 0px 0px 15px 0px #25243235;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.con-h{
+    font-size: 97px;
+    margin-top: 250px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.con-form{
+    
+    
+    margin-top: 250px;
+    margin-right: 13px;
+
+
+}
+
+label{
+    font-size: large;
+    
+}
+
+input,textarea{
+    padding: 15px 99px 15px 10px;
+    font-size: 20px;
+    border: 1px;
+    border-radius: 6px;
+
+}
+
+
+.form-g{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+textarea{
+    
+}
+
+.con-btn{
+
+    margin-top: 20px;
+    font-size: 14px;
+   padding: 14px 150px;
+   border: none;
+   border-radius: 6px;
+   background-color: #4E47FF;
+   color: white;
+
+
+
+}
 
 
 
 
 /* Footer Section */
+
 
